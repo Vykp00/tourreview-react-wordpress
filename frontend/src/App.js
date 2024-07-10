@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-import Navbar from "./components/NavBar";
-import Footer from "./components/Footer";
+import Navbar from './components/NavBar';
+import Footer from './components/Footer';
+import GetPosts from './components/GetPosts';
 
 function App() {
     return (
@@ -18,6 +19,9 @@ function App() {
                         Welcome to Tour Review
                     </p>
                 </header>
+            </div>
+            <div className="Tour">
+                <GetPosts/>
             </div>
             <Footer/>
 
