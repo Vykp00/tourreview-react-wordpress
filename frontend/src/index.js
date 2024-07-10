@@ -9,14 +9,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import NotFound from './pages/NotFoundPage';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import LoginPage from "./pages/LoginPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <BrowserRouter basename={'/'}>
             <Routes>
-                <Route path='/' element={<App/>}></Route>
-                <Route path='*' element={<NotFound/>}></Route>
+                <Route path='*' element={<NotFound/>}/>
+                <Route path='/' element={<App/>}/>
+                <Route path='/v1/login' element={<LoginPage/>}/>
             </Routes>
         </BrowserRouter>
     </React.StrictMode>
