@@ -57,6 +57,9 @@ define( 'SECURE_AUTH_SALT', 'Yhk%%&y-)DRx$]kHi>d}LVL{lM7V|BAFaeN~b;g} _R5/4| W81
 define( 'LOGGED_IN_SALT',   '!!*D0dgej(#f.&^]%@>J5cJVPF&`-6F r@ZE<RYZ>XLG7+n;(Zs=D5HL(:$wP=f(' );
 define( 'NONCE_SALT',       'SyPlMY>DVhkmb&igHt3.Tx])j@!NKh)prdub<_v%|haXwCCwZ<OTb~!6ck;kw.aH' );
 
+/* JWT Authentication */
+define('JWT_AUTH_SECRET_KEY', '(z*`* xhf]{+h3>?H+@Puylwm@!T+pr>6Sd[W2|<in)oj+J^$NO+[Y?Un@v|ZLHe');
+define('JWT_AUTH_CORS_ENABLE', true);
 /**#@-*/
 
 /**
